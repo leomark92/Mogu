@@ -22,4 +22,8 @@
             width: 150px;
         }
     }
+    &__link:hover {
+        transform: rotate(90deg);
+        transition: all 0.5s;
+    }
 }
