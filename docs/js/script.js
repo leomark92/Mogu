@@ -6,8 +6,6 @@ deli.addEventListener('click', () => {
     menu.classList.toggle('active');
 });
 
-
-
 closeElem.addEventListener('click', () => {
     menu.classList.remove('active');
 });
