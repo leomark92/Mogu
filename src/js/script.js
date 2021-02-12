@@ -10,3 +10,10 @@ closeElem.addEventListener('click', () => {
     menu.classList.remove('active');
 });
 
+const percent = document.querySelectorAll('.tools__percent');
+var actual = document.querySelectorAll('.tools__actual-fill');
+
+percent.forEach((item, i) => {
+    actual[i].style.width = item.innerHTML;
+});
+
